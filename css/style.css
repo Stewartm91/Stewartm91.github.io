@@ -1,0 +1,76 @@
+p{
+	font-size: 18pt;
+}
+
+h1, h3, a{
+	font-size: 18pt;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+
+#hero{
+	background: url('image.jpeg') no-repeat fixed;  
+    background-size: 1350px 650px;
+    background-position:;
+    height: 300px;
+    width: 1250px;
+    padding-bottom: 90px;
+    margin: 0px;
+}
+
+#slogan {
+	   	background-color: rgba(255,255,255,.75);
+	   	color: black;
+	   	font-family: helvetica;
+	   	font-size: 22pt;
+		margin: 0px;
+	   	padding: 0px;
+
+}
+
+#slogan p{
+
+	font-style: italic; 
+	font-size: 20pt;
+}
+#copy {
+	padding: 0pt;
+	margin: 0pt;
+	font-size: 10pt;
+	background: rgb(255, 88, 0);
+	color: white;
+}
+
+#percTiles  {
+	background: url('Crotales1.jpg') no-repeat ;
+	background-size: 404px 400px;
+	border: 1px solid black;
+	color: darkorange;
+	font-weight: bolder;
+	font-size: 32pt;
+	height:400px;
+	width:404px;	
+}
+
+#equipTiles { 
+	background: url('backline1.jpg') no-repeat ;
+	background-size: 404px 400px;
+	color: darkorange;
+	border: 1px solid black;
+	font-weight: bolder;
+	font-size: 32pt;
+	height:400px;
+	width:404px;
+	justify-content: right;
+	text-orientation:right;
+}
+
+
+
+    
+
+
+
+
