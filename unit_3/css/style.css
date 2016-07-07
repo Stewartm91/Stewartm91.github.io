@@ -1,72 +1,47 @@
-p{
-	font-size: 18pt;
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	font-size:18px;
 }
-
-h1, h3, a{
-	font-size: 18pt;
-	padding: 0px;
-	margin: 0px;
-	border: 0px;
+ul {
+	padding-left:1.25em;
 }
-
-
 #hero{
-	background: url('image.jpeg') no-repeat fixed;  
-    background-size: 1350px 650px;
-    background-position:;
-    height: 300px;
-    width: 1250px;
-    padding-bottom: 90px;
-    margin: 0px;
+	background: url('image.jpeg') no-repeat fixed;
+	background-size: cover;
+	height: 90vh;
+	padding: 10em 10em 0;
 }
-
 #slogan {
-	   	background-color: rgba(255,255,255,.75);
-	   	color: black;
-	   	font-family: helvetica;
-	   	font-size: 22pt;
-		margin: 0px;
-	   	padding: 0px;
-
+	background-color: rgba(255,255,255,.75);
+	color: black;
+	font-family: helvetica;
 }
-
 #slogan p{
-
 	font-style: italic; 
-	font-size: 20pt;
 }
 #copy {
-	padding: 0pt;
-	margin: 0pt;
-	font-size: 10pt;
 	background: rgb(255, 88, 0);
 	color: white;
+	padding: 4em 0;
 }
-
 #percTiles  {
 	background: url('Crotales1.jpg') no-repeat ;
-	background-size: 404px 400px;
+	background-size:cover;
 	border: 1px solid black;
 	color: darkorange;
 	font-weight: bolder;
-	font-size: 32pt;
 	height:400px;
-	width:404px;	
+	width:400px;	
 }
-
 #equipTiles { 
 	background: url('backline1.jpg') no-repeat ;
-	background-size: 404px 400px;
+	background-size: cover;
 	color: darkorange;
 	border: 1px solid black;
 	font-weight: bolder;
-	font-size: 32pt;
 	height:400px;
-	width:404px;
-	justify-content: right;
-	text-orientation:right;
+	width:400px;
 }
-
 
 
     
