@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Questrial);
-
-li, p {
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: normal;
 	font-size: 18px;
