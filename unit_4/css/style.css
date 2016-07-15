@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial|Cormorant+SC);
+
+
+
+li, p {
+	font-family: 'Cormorant Upright', serif;
+
+		font-weight: normal;
+		font-size: 18px;
+		line-height:1.5em;
+}
+
+
+#hero{
+	background: url('../images/image.jpg') no-repeat fixed;  
+    background-size: cover;
+}
+
+.box  {
+	background-color: rgba(240, 90, 10, .8);
+	border: 2px solid black;
+	border-radius:10px;
+	color:white;
+	font-family: 'Questrial', sans-serif;
+	padding:1em;
+	height:20px;
+	width:150px;
+}
+
+
+.copy {
+	background-color: rgba(255,255,255,.85);
+	border-radius: 10px;
+	color: black;
+	margin:20px, 40px, 0px, 20px;
+	padding:20px;
+}
+.copy h2{
+	font-size:20px;
+	font-weight:bolder;
+	padding-bottom: 10px;
+}
+
+.copy p{
+	margin-bottom:10px;
+	border-bottom: 2px solid #F05A0A;
+}
+.footer{
+	background-color:white;
+	margin-top: 300px;
+}
+.footer h3{
+	font-size:22px;
+}
+
+.index {
+	background-color:rgba(255,255, 255, .85);
+	list-style-type: circle;
+	line-height:1em;
+
+}
+
+.index div{
+	padding: 10px 50px 0px 50px;
+}
+
+.index h3{
+	 	font-family: 'Questrial', sans-serif;
+	 	font-size:24px;
+}
+
+.nav nav{
+	margin:.5em 50px 0 285px;
+}
+
+.nav li {
+	background-color: rgba(240, 90, 10, .8);
+	border-radius: 8px;
+	color:white;
+	font-family:'Questrial', sans-serif;;
+	font-weight:bold;
+	font-size: 22px;
+	display:inline;
+	margin-left: 50px;
+	padding: .2em;
+}
+
+.right{
+	text-align:right;
+}
+
+.slogan  {
+		background:white;
+		background-position: fixed;
+		border-bottom:5px solid #F05A0A;
+	   	color: black;
+	   	font-family: 'Questrial', sans-serif;
+		font-size:34px;
+}
+
+.slogan h2 {
+	
+	font-size:22px;
+	margin-left:20px;
+
+}
+
+
+.tiles { 
+   	margin-left: 175px;
+	padding:20px;
+    font-weight:bold;
+    font-size:20px;
+ 
+}
+.tiles td{
+	background-size: contain;
+	border-radius: 8px;
+	height:100px;
+    width:160px;
+    margin:1.5em;
+	padding-top: 350px;
+}
+
+
+.perc {
+	background: url('../images/Crotales1.jpg') fixed no-repeat left ;  	
+}
+.string {
+	background: url('../images/cello.jpeg') fixed no-repeat center;
+}
+.keys {
+	background: url('../images/piano.jpg') fixed no-repeat left;
+}
+.backline {
+	background: url('../images/backline1.jpg') fixed no-repeat right;
+}
+.amp {
+	background: url('../images/mic.png') fixed no-repeat right;
+}
+
+
+   
+
+
+
