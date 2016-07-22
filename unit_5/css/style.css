@@ -1,8 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Questrial);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body{
-	margin:0;
-	padding:0;
 	box-sizing:border-box;
 	font-family: 'Libre Baskerville', serif;
 	font-weight: normal;
@@ -24,7 +22,7 @@ header {
 	background-color: #FFED74;
 	border: 2px black solid;
 	padding:20px;
-	float: left;
+	/* float: left; */
 }
 
 
@@ -92,9 +90,9 @@ nav a{
 	border: 3px solid black;
 	border-radius: .2em;
 	color: white;
-	height: 20px;
+	/* height: 20px; */
 	padding: .4em;
-	width: inherit;
+	/* width: inherit; */
 }
 
 .client{
@@ -125,14 +123,14 @@ nav a{
 	float:left;
 	
 }
-.otherList { 
-	float:right;
+.otherList {
+	float: left;
 	background-color: #E89C6C;
 	border-bottom: 1px solid black;
 	padding: 20px;
 	/* padding-right:2em; */
-	
-	
+	width: 49%;
+	margin: .5%;
 } 
 
 
@@ -147,13 +145,11 @@ nav a{
 	text-decoration:none;
 }
 
-.tiles div{
-
-	float: left; 
+.tiles a{
+	float: left;
 	background-color:#FFE2B8;
 	border-bottom: 1px solid black;
 	padding: 20px;
-	
 	/*
 	font-size:18px;
 	background-size: contain;
@@ -163,7 +159,9 @@ nav a{
 	padding-top: 300px;
 	margin: 2em 0 5em 0;
 	*/
-}
+	width: 20%;
+	text-align: center;
+	}
 
 
 
