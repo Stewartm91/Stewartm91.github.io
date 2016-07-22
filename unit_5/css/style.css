@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Questrial);
+
+body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+h1, h2, h3 {
+	font-family: 'Questrial', sans-serif;
+}
+
+footer {
+	background-color:#FF957E;
+}
+footer h2{
+	font-size:22px;
+}
+
+header {
+	background-color: #FFED74;
+	border: 2px black solid;
+	padding:20px;
+	float: left;
+}
+
+
+header h1{
+	float:left;
+	border-bottom: 3px solid #F05A0A;
+	margin-right: 8.7em;
+ 
+}
+
+nav {
+	background-color: #E8C66A;
+	border:1px black solid;
+	padding:20px;
+
+	float:right;
+	/*
+	font-family:'Questrial', sans-serif;
+	font-weight:bold;
+	font-size: 22px;
+	
+	margin-top: 1em;
+	*/
+
+}
+
+nav a{
+	text-decoration:none;
+	margin: 0 .4em;
+	color: #F05A0A;
+}
+
+
+
+.about_us {
+	background-color: #E89C6C;
+	color: black;
+	border-bottom: 1px black solid;
+	
+	padding:20px;
+	clear:both; 
+
+}
+.about_us h2{
+	font-size:20px;
+	font-weight:bolder;
+	padding: 0;
+	margin:0;
+}
+.about_us p{
+	margin-bottom:10px;
+	
+}
+
+#hero{
+	/* background: url('../images/image.jpg') no-repeat fixed;  
+    background-size: cover; */
+   	background-color: #FFE2B8;
+    clear:both; 
+    border-top: 2px black solid;
+}
+
+.box  {
+	background-color: rgba(240, 90, 10, .8);
+	border: 3px solid black;
+	border-radius: .2em;
+	color: white;
+	height: 20px;
+	padding: .4em;
+	width: inherit;
+}
+
+.client{
+	background-color: #E89C6C;
+	border-bottom: 1px solid black;
+	padding: 20px;
+	clear:both; 
+	/* margin-bottom: 15em; */
+}
+
+.client h3{
+	font-size:28px;
+	font-style:bold;
+}
+
+.inventory {
+	background-color: #FFE2B8;
+	border-bottom: 1px solid black;
+	padding: 20px;
+	line-height:1em;
+}
+
+.percList {
+	background-color:#E89C6C;
+	border-bottom: 1px solid black;
+	padding: 20px;
+	/* padding-left: 2em; */
+	float:left;
+	
+}
+.otherList { 
+	float:right;
+	background-color: #E89C6C;
+	border-bottom: 1px solid black;
+	padding: 20px;
+	/* padding-right:2em; */
+	
+	
+} 
+
+
+.tiles section{
+	clear:both;
+	/* margin-left: 5em;
+	margin-top:2em; */
+
+}
+
+.tiles a{
+	text-decoration:none;
+}
+
+.tiles div{
+
+	float: left; 
+	background-color:#FFE2B8;
+	border-bottom: 1px solid black;
+	padding: 20px;
+	
+	/*
+	font-size:18px;
+	background-size: contain;
+	border-radius: .2em;
+	border: 1px solid black;
+    width:200px;
+	padding-top: 300px;
+	margin: 2em 0 5em 0;
+	*/
+}
+
+
+
+div.perc {
+	/* background: url('../images/Crotales1.jpg') fixed no-repeat left ;  	
+	margin-left: 10em;  */
+	background-color:#FFE2B8;
+	border-bottom: 1px solid black;
+	padding: 20px;
+
+}
+div.orch {
+	/* background: url('../images/cello.jpeg') fixed no-repeat left;
+	*/
+	background-color:#FFE2B8;
+	border-bottom: 1px solid black;
+	padding: 20px;
+}
+div.keys {
+	/* background: url('../images/keys.png') fixed no-repeat right;
+	*/
+	background-color:#FFE2B8;
+	border-bottom: 1px solid black;
+	padding: 20px;
+}
+div.backline {
+	/* background: url('../images/backline1.png') fixed no-repeat right;
+	*/
+	background-color:#FFE2B8;
+	border-bottom: 1px solid black;
+	padding: 20px;
+}
+div.amp {
+	/* background: url('../images/mic.png') fixed no-repeat right;
+	*/
+	background-color:#FFE2B8;
+	border-bottom: 1px solid black;
+	padding: 20px;
+}
+
+
+   
+
+
+
