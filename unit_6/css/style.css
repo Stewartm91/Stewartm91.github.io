@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Questrial);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body{
+	background-color:none;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+h1, h2, h3 {
+	font-family: 'Questrial', sans-serif;
+}
+
+ul{
+	list-style:none;
+}
+li{
+	padding:.2em;
+}
+
+footer {
+	background-color:#FF957E;
+}
+
+header {
+	background-color: #FFED74;
+	border: 2px black solid;
+	padding:20px;
+	float: left;
+	width: 100%;
+	position:fixed;
+}
+
+
+header h1{
+	float:left;
+	font-size:30px;
+	border-bottom: 3px solid #F05A0A;
+ 
+}
+
+nav {
+	background-color: #E8C66A;
+	float:right;
+	font-family:'Questrial', sans-serif;
+	font-weight:bold;
+	font-size: 22px;
+
+}
+
+nav a{
+	text-decoration:none;
+	padding: .8em;
+	
+}
+
+
+
+
+
+.about_us {
+	background-color: #E89C6C;
+	color: black;
+	border-bottom: 1px black solid;
+	
+	padding:20px;
+	clear:both; 
+
+}
+.about_us h2{
+	font-size:20px;
+	font-weight:bolder;
+	padding: 0;
+	margin:0;
+}
+.about_us p{
+	margin-bottom:10px;
+	
+}
+
+#wrapper{
+	/*background: url('../images/image.jpg') no-repeat fixed;  
+    background-size: cover; 
+  */
+
+  background-color: grey;
+}
+
+
+.box  {
+	background-color: rgba(240, 90, 10, .8);
+	border: 3px solid black;
+	border-radius: .2em;
+	color: white;
+	padding: .4em;
+	width: inherit;
+}
+
+.client{
+	background-color: rgba(255, 255, 255, .8);
+	border: 1px solid black;
+	padding: 20px;
+	clear:both; 
+	}
+
+.client h3{
+	font-size:28px;
+	font-style:bold;
+}
+
+.inventory {
+	background-color: rgba(255, 255, 255, .8);
+	border-bottom: 1px solid black;
+	padding: 20px;
+	line-height:1em;
+	clear:both;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+    padding: 20px;
+}
+#two_column h2+ul {
+	padding: .8em;
+	
+}
+
+#left {
+ background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+	
+}
+
+#right{
+	 background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+ 
+ a{
+	text-decoration:none;
+}
+
+.tiles a{
+	border: 1px solid black;
+	padding: 10em 2em 2em 2em;
+	margin-top: 13em;
+	margin-bottom: 1em;
+	float: left;
+
+
+}
+
+.perc {
+	background-color:#E89C6C;
+	clear:both;
+	margin-left: 5em;
+	/* background: url('../images/Crotales1.jpg') fixed no-repeat left ;   */	
+	
+}
+.orch {
+	background-color:#E89C6C;
+	/*background: url('../images/cello.jpeg') fixed no-repeat left;*/
+}
+.keys {
+	background-color:#E89C6C;
+	/*background: url('../images/keys.png') fixed no-repeat right;*/
+}
+.backline {
+	background-color:#E89C6C;
+	/*background: url('../images/backline1.png') fixed no-repeat right;*/
+}
+.amp {
+	background-color:#E89C6C;
+	/*background: url('../images/mic.png') fixed no-repeat right;*/
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+   
+
+
+
