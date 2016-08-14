@@ -1,0 +1,426 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Questrial);
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+	background-color:lightgrey;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: normal;
+	font-size: 18px;
+}
+h1, h2, h3 {
+	font-family: 'Questrial', sans-serif;
+}
+h2{
+	font-size: 1.4em;
+	border-bottom: 2px solid rgb(240, 90, 10);
+}
+ul{
+	list-style:none;
+}
+li{
+	padding: .2em;
+}
+footer {
+	background-color: #F05A0A;
+	padding: 1em;
+	text-align: center;
+	clear:both;
+}
+header {
+	background-color: white;
+	border-bottom: 1px black solid;
+	padding: 1em;
+	float: left;
+	width: 100%;
+	position:fixed;
+}
+header h1{
+	float:left;
+	font-size: 1.8em;
+	border-bottom: 3px solid #F05A0A;
+}
+nav {
+	float:right;
+	padding-top: .4em;
+	font-family:'Questrial', sans-serif;
+	font-weight:bold;
+	font-size: 1.2em;
+}
+nav a{
+	color:  rgb(240, 90, 10);
+	text-decoration:none;
+	padding: .8em;
+}
+nav li {
+	float: left;
+}
+a{	
+	text-decoration:none;
+}
+	#home {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.about_us {
+		width: 90%;
+		margin: 1em auto;
+		min-height: 19em;
+		font-size: 1em;
+	}
+	.about_us p{
+		margin-left:.5em;
+		float:left;
+		width: 50%;	
+	}
+	.about_us h2+p{
+		margin: 1em  1em;
+	}
+	.about_us img {
+		border-radius: 0.4em;
+		width: 40%;
+		margin: 1em  auto;
+	}
+	.slogan {
+		width: 100%;	
+	}
+	.slogan h2 {
+		color:white;
+		padding: 4em .5em 1em .5em;
+		background-color: rgb(240, 90, 10);
+		text-align: center;
+	}
+	.box  {
+		background-color: #F05A0A ;
+		border: 5px solid #FFAA01;
+		font-family: 'Questrial', bold,  sans-serif;
+		color: white;
+		float: left;
+		margin-right: .2em;
+		padding: .4em;
+		text-align: center;
+		min-width: 2em;
+	}
+	.box2 {
+		clear: both;
+		margin: 2em 0 0 4em;
+	}
+
+	.box3 {
+		float: left;
+		margin: 2em 0 0 .6em;
+	}
+	.tiles {
+		width: 70%;
+		margin: 0 auto 0 20%;
+		font-size: 1.2em;
+		padding: 2em 0;
+	}
+	.client{
+		padding: 1em;
+		clear:both; 
+		width: 90%;
+		margin: 0 auto;
+		}
+	.client p{
+		padding: .8em;
+	}
+	.col {
+		background-color: #FF6500;
+		float:left;
+		padding: 1em 0 4em;
+	  	margin: 1em auto;
+		clear:both;
+		min-height: 820px;
+	}
+	.col h2{
+		border:none;
+	}
+	.pics div {
+		float:left;
+		margin-left: auto;
+	}
+	.pics img {
+		float:left;
+		width: 20%;
+		margin: 1em .2em;
+		margin-left: 1.5em;
+	}
+
+
+
+	#inventory {
+		background-color: rgb(255, 255, 255);
+		min-width: 88%;
+		margin: 2em auto 0; 
+		width: 90%;
+	}
+	#inventory h2+ul {
+		padding: .8em;	
+	}
+	.colfloat{
+		float:right;
+	}
+	.col {
+	 	background-color: #FF6500;
+	    border: 1px black solid;
+	   	width: 40%;
+	   	margin: 1em auto;
+	    min-height: 125px;
+	    display:inline;
+	}
+
+	.bottomcol{
+			width: 100%;
+			margin: 1em auto;
+			text-align: center;
+		}
+
+	.col1 {
+		min-height: 550px;
+		margin-right:1em;
+	}
+	#testimonial div{
+		width: 100%;
+		margin: 0 auto;
+		background-color: white;
+		float: left;
+	}
+
+	.client {
+		padding-top: 4em;
+		width: 90%;
+		float:left;
+	}
+
+	.client p {
+		text-align: center;
+	}
+	.center {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.left {
+		width: 85%;
+		margin: 0 auto 0 2em;
+	}
+
+	.mid {
+		width: 80%;
+		margin: 0 auto 0 5em;
+	}
+
+	.right p{
+		width: 30%;
+		margin: 0 auto 0 12em;
+		text-justify:right;
+
+	}
+
+	.brands {
+		width: 100%;
+		margin:0 auto;
+		clear: both;
+	}
+	.brands img {
+		padding: 1.2em 0em 1em 1em;
+		width: 92%;	
+		float:left;
+	}
+	.inside {
+		margin-top:2em;
+	}
+	.inside1 {
+		margin-top: 1.2em;
+	}
+
+	.inside2 {
+		margin-top: 2.2em;
+	}
+
+	.underline{
+		font-size:20px;
+		font-family: 'Questrial', sans-serif;
+		border-bottom: 1px solid #F05A0A;
+		line-height: 1.4em;
+
+	}
+
+	.clearfix:after {
+	    visibility: hidden;
+	    display: block;
+	    font-size: 0;
+	    content: " ";
+	    clear: both;
+	    height: 0;
+	}
+	.wrapper {
+		width: 80%;
+		margin: 0 auto;
+		background-color:white;
+	}
+@media only screen and (max-width: 1000px){
+	h1 {
+		font-size: 1em;
+		min-width: 70%;
+		margin: 0 .5em 0 2.5em;
+	}
+	nav {
+		float: none;
+		clear: both;
+		margin: 0;
+		margin-left: 7.5em;
+		display: block;
+		font-size: .9em;
+		max-width: 75%;
+	}
+	nav a{
+		padding: 0 0;
+		font-size: 1.2em;
+		margin: 5% 1%;
+	}
+
+	header {
+		max-height: 15em;
+		margin: 0 auto;
+	}
+	.headerwrapper  {
+		max-width: 60%;
+		margin: 0 auto;
+	}
+
+	.headerwrapper ul {
+		max-width: 80%;
+	}
+	.slogan {
+		width: 100%;
+		padding-top: 5em;
+		font-size: .8em;
+	}
+	.tiles  {
+		font-size: 1em;
+		min-width: 60%;
+		margin: 0 auto;
+		padding: 2em 0 0;
+	}
+	.about_us p {
+		width: 90%;
+	}
+	.about_us img {
+	border-radius: 0.4em;
+	width: inherit;
+	margin: 1em  auto;
+	}
+	.pics1 img{
+		margin-top: 1.2em;
+	}
+	.querycenter {
+		padding: 0 5em;
+	}
+	.bottom-line_nav {
+		padding-left: 1.5em;
+	}
+	.client p{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 814px)
+{
+	nav {
+		float: none;
+		clear: both;
+		padding: 0;
+		display: block;
+		font-size: .9em;
+		width: 100%;
+	}
+	
+	.client p {
+		width: 100%;
+		font-size: .7em;
+	}
+	img {
+		display: none;
+	}
+	header {
+		padding-left: 0;
+	}
+	.header-wrapper {
+		min-width: 40%;
+	}
+	.brands img {
+	display: inline;
+	}
+	.col{
+		width: 100%;
+		text-align: center;
+	}
+	.slogan {
+		padding-top: 5em;
+	}
+	.tiles  {
+		width: 100%;
+		margin:  0 3.5em 5em;
+		padding: 2.6em 2em 0;
+		text-align: right;
+	}
+	.box{
+		min-width: 75%;
+	}
+	.box2 {
+		margin: 0 0;
+	}
+	.box3 {
+		margin: 0 0;
+	}
+	.bottom-line_nav  {
+		
+		display: inline-block;
+		width: 200%;
+	}
+
+	.bottom_col {
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 724px){
+
+	.headerwrapper {
+		min-width: 75%;
+		margin-left: 20%;
+	}
+	.headerwrapper h1 {
+		max-width: 100%;
+		margin: 0 auto;
+
+	}
+
+	.bottom-line_nav  {
+		margin-left: 0;
+		padding-left: 0;
+		display: inline-block;
+		width: 100%;
+	}
+
+	nav {
+		width: 50%;
+		margin: auto;
+	}
+	nav li{
+		float:none;
+		clear: both;
+	}
+
+
+	.slogan {
+		padding-top: 8em;
+	}
+
+	.tiles {
+		padding: 2em 0 1em;
+		margin: 0 2em 0;
+	}
+
+}
+
