@@ -1,0 +1,353 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Questrial);
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+	background-color:lightgrey;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: normal;
+	font-size: 18px;
+}
+h1, h2, h3 {
+	font-family: 'Questrial', sans-serif;
+}
+h2{
+	font-size: 1.4em;
+	border-bottom: 2px solid rgb(240, 90, 10);
+}
+ul{
+	list-style:none;
+}
+li{
+	margin-top: .5em;
+}
+footer {
+	background-color: #F05A0A;
+	padding: 2em;
+	text-align: center;
+	clear:both;
+}
+header {
+	background-color: white;
+	border-bottom: 1px black solid;
+	padding: 1em;
+	float: left;
+	width: 100%;
+}
+header h1{
+	float:left;
+	font-size: 1.8em;
+	border-bottom: 3px solid #F05A0A;
+}
+nav {
+	float:right;
+	font-family:'Questrial', sans-serif;
+	font-weight:bold;
+	font-size: 1.2em;
+}
+nav a{
+	color:  rgb(240, 90, 10);
+	text-decoration:none;
+	margin: .5em 1em 4em;
+}
+nav li {
+	float: left;
+}
+a{	
+	text-decoration:none;
+}
+	#home {
+		/* width: 90%; */
+		margin: 0 auto;
+	}
+	.about_us {
+		/* width: 90%; */
+		margin: 1em auto;
+		min-height: 19em;
+		font-size: 1.1em;
+	}
+	.about_us p {
+		float:left;
+		width: 45%;	
+		margin: 2em .6em;
+	}
+	.about_us img {
+		border-radius: 0.4em;
+		width: 45%;
+		margin: 1em  1em;
+	}
+	.slogan {
+		width: 100%;
+		box-shadow: 1px 3px 3px rgba(0,0,0,.25), 2px 2px 4px rgba(0,0,0,.12);
+	}
+	.slogan h2 {
+		color:white;
+		padding: 4em .5em 1em .5em;
+		background-color: rgb(240, 90, 10);
+		text-align: center;
+	}
+	.box  {
+		background-color: #F05A0A;
+		border: 5px solid #FFAA01;
+		font-family: 'Questrial', bold,  sans-serif;
+		color: white;
+		margin-bottom: .2em;
+		padding: .4em;
+		text-align: center;
+		min-width: 2em;
+		display: inline-block;
+	}
+	.tiles {
+		margin: 0 auto;
+		font-size: 1.2em;
+		padding: 2em 0;
+		text-align: center;
+	}
+	.col {
+		background-color: #FF6500;
+		float:left;
+		padding: 3em;
+		margin: 1em auto;
+		clear:both;
+	}
+	.col h2{
+		border:none;
+	}
+	.pics div {
+		float:left;
+		margin-left: auto;
+	}
+	.pics img {
+		float:left;
+		width: 20%;
+		margin: 1em .2em;
+		margin-left: 1.5em;
+	}
+	.pics1 img{
+		margin: 2em 0 0 10%;
+	}
+	#inventory {
+		background-color: rgb(255, 255, 255);
+		margin: 2em auto 0;
+	}
+	.colfloat{
+		float:right;
+	}
+	.col {
+		clear: both;
+	 	background-color: #FF6500;
+	 	border: 7px solid #FFAA01;
+	 	width: 100%;
+	 	margin: 2em auto;
+	}
+	.col ul {
+		display: inline-block;
+		float: left;
+		margin: 1em 2em 1em;
+	}
+	.bottomcol{
+			clear: both;
+			width: 100%;
+			margin: 2em auto;
+		}
+	.bottompics img {
+		margin: 2em 2%;
+		min-width: 10%;
+	}
+	.border div+div {
+		float:left;
+		border: 5px solid #FFAA01;
+		margin: 0 auto;
+		padding: 1em;
+	}
+	#testimonial div{
+		width: 100%;
+		margin: 0 auto;
+		background-color: white;
+		float: left;
+	}
+	.client {
+		clear:both;
+		margin: 0 auto;
+		}
+	.client p {
+		padding: .8em 0;
+	}
+	.client h2 {
+		margin-top: 4em;
+	}
+	.client div {
+		width: 80%;
+		margin: 0 auto;
+		float:left;
+	}
+	.brands h2 {
+		margin-top: 4em;
+	}
+	.brands {
+		width: 100%;
+		clear: both;
+	}
+	.brands img {
+		padding: 1.2em 0 1em;
+		width: 100%;
+		float:left;
+	}
+	.inside {
+		margin-top:2em;
+	}
+	.inside1 {
+		margin-top: 1.2em;
+	}
+	.inside2 {
+		margin-top: 2.2em;
+	}
+	.underline{
+		font-size:20px;
+		font-family: 'Questrial', sans-serif;
+		border-bottom: 1px solid #F05A0A;
+		line-height: 1.4em;
+	}
+	.clearfix:after {
+	    visibility: hidden;
+	    display: block;
+	    font-size: 0;
+	    content: " ";
+	    clear: both;
+	    height: 0;
+	}
+	.wrapper {
+		width: 80%;
+		margin: 0 auto;
+		background-color:white;
+		padding: 0 4em;
+		box-shadow: 1px 3px 3px rgba(0,0,0,.25), 2px 2px 4px rgba(0,0,0,.12);
+		max-width: 70em;
+	}
+@media only screen and (max-width: 1080px)
+{
+	h1 {
+		font-size: 1em;
+		margin: 0 .5em 0 .5em;
+	}
+	nav {
+		float: none;
+		clear: both;
+		margin: 0;
+		display: block;
+		font-size: .9em;
+		min-width: 100%;
+		
+	}
+	nav a {
+		padding: 0 2% 0 0;
+		font-size: 1em;
+	}
+
+	header {
+		max-height: 15em;
+		margin: 0 auto;
+	}
+	.headerwrapper  {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.headerwrapper ul {
+		max-width: 98%;
+	}
+	.slogan {
+		width: 100%;
+		padding-top: 3em;
+		font-size: .8em;
+	}
+	.tiles  {
+		font-size: 1em;
+		min-width: 60%;
+		margin: 0 auto;
+		padding: 2em 0 0;
+	}
+	.about_us p {
+		width: 90%;
+	}
+	.about_us img {
+		border-radius: 0.4em;
+		width: inherit;
+		margin: 1em  auto;
+	}
+	.pics1 img{
+		margin-top: 1.2em;
+	}
+	.querycenter {
+		padding: 0 5em;
+	}
+	.client p{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.col ul {
+	margin: 0 auto;
+	float: none;
+	width: 100%;
+	}
+}
+@media only screen and (max-width: 814px)
+{
+	nav {
+		padding: 0;
+		display: block;
+		font-size: .9em;
+		min-width: 180%;
+	}
+	.client p {
+		width: 100%;
+		font-size: .7em;
+	}
+	img {
+		display: none;
+	}
+	header {
+		padding-left: 0;
+	}
+	.brands img {
+		display: inline;
+	}
+	.col{
+		width: 100%;
+		text-align: center;
+	}
+	.slogan {
+		padding-top: 3em;
+	}
+	.tiles  {
+		width: 100%;
+		padding: 2.6em 0em 1em;
+	}
+	.box{
+		min-width: 75%;
+	}
+	.bottom_col {
+		margin-bottom: 0;
+	}
+	.border div+div {
+		display:none;
+	}
+}
+@media only screen and (max-width: 724px){
+	
+	h1{
+		margin-left:2%;
+		
+	}
+
+	.slogan {
+		padding-top: 1em;
+	}
+
+	nav{
+		display: none;
+
+	}
+	.tiles {
+		margin: 0 0;
+	}
+}
+
