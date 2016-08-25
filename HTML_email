@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Orchestra and Interactive Multimedia</title>
+
+	<style type="text/css">
+		@media only screen and (max-width: 480px){
+
+			#slogan th {
+				font-size:.75em;
+			}
+
+			#links a {
+
+				padding: 2em 0;
+			}
+
+		}
+	</style>
+</head>
+<body>
+<table cellspacing="0" style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height:1.5;" border="0" width="100%">
+	<tr>
+		<td>
+			<table cellspacing="20" cellpadding="10" align= "center" border="0">
+				<th style=" color: white; background-color:#090909; font-size: 1.35em;" align= "center" border="0" id="slogan">Introducing:<br>
+				 MULTIPLE PERSONALITY <br> <span style="color:#36FF04;"><strong>Sebastian Lambertz</strong></span> &amp; <span style=" color: #FF0DFF;"><strong>the ' junge orchester NRW'</strong></span></th>
+				<tr>
+					<td align="center" cellpadding="0">
+						<p>An upcoming project for clarinet, visual art, interactive technology &amp; orchestra, sponsored and supported by:</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table align="center">
+							<tr>
+								<td cellspacing="15" cellpadding="15" style="text-align:center; background-color:lightgrey; padding: .5em;">	
+									<strong><a style="font-size:1.5em; text-decoration: none; color:#480784;" href="http://www.duesseldorf-festival.de/en/">Dusseldorf Festival!</a></strong><br>
+									<h3>October 1st, 2016</h3>
+									<h4>8 pm, Johanneskirche Dusseldorf</h4>
+									<h5>Martin-Luther-Platz 39, Dusseldorf, Germany</h5>
+								</td>
+							</tr>
+							<tr cellspacing="10" cellpadding="10" width="75%" border="1" align="center">
+								<td>
+									<h2 style="color:red;">Featuring:</h2>
+									<strong><a href="http://www.sebastianlambertz.de/en/" style="color: black; text-decoration:none;">Sebastian Lambertz, clarinet soloist</a></strong>
+									<p><span style="padding:5em;">-and-</span></p>
+									<strong><a href="http://djo-nrw.de/" style="text-decoration:none; color: black;">the'junge orchester NRW'</a></strong> <br>directed by Ingo Ernst Reihl</p>
+									<p><Strong>In collaboration with:</Strong><br> <a style="text-decoration:none; color: black;" href="http://www.sooakim.com/">SooA Kim, visual art<br>Matthew Stewart, interactive design</p>
+								</td>	
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr cellspacing="10" cellpadding="10" width="75%" border="1" align="center">
+ 					<td id="links">
+						<h3>More information</h3>
+						<a href="http://www.duesseldorf-festival.de/…/multiple-personality-…/">Dusseldorf Festival!</a>
+						<h3>Video Samples</h3>
+						<a href="https://drive.google.com/open?id=0BxZRvYnkyIQNT1ZHME5OVUMxaXc">Steve Reich<span style="font-style:italic;"> NY Counterpoint</span></a><br>
+						<a href="https://drive.google.com/file/d/0BxZRvYnkyIQNRy1JYzVJSERnR1k/view?usp=sharing">Karl Nielsen <span style="font-style:italic">  Clarinet Concerto</span></a>
+					</td>
+				</tr>	
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
